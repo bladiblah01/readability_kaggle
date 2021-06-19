@@ -20,6 +20,7 @@ class loadData:
 
     '''
     # purpose of the function is to check the input dataset file is present in the mentioned directory
+    # If yes then return cleansed data as dataframe
     # returns : Dataframe - object containing clean data 
     '''
     def load_data(self) -> object:
